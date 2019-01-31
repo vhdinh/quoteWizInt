@@ -1,0 +1,24 @@
+QuoteWizard Development Exercise: API
+
+Purpose
+We feel that a better alternative of communicating technical proficiency to asking a candidate to code a search algorithm on a whiteboard in front of a group of people would be to ask the candidate to take on a small practical application.
+After internal review of the coding exercise, if the candidate looks like a good potential fit for our team, we can open the interview process with a dialog between the interview candidate and select team members bout code the candidate has personally worked on and has familiarity.
+
+Instructions
+1.	Create a document/text file with a list of possible assumptions that you would make based on the Feature Criteria Requested
+2.	Note any questions you would surface to the ScrumMaster/PM or Business Stakeholders/Product Owners regarding the feature request(s)
+3.	Create a API Solution in your prefererd language/technology that will use the provided json file (auto.leads.json) as the Minimally Viable Product iteration’s  dataset
+4.	Provide detailed instructions as to:
+a.	How to install/configure/run your solution on any Windows machine.
+b.	Please explicitly define the expected URL to access your API via postman once the API solution is being served.
+5.	Please keep the level of effort to complete the exercise reasonable between one and four hours.
+Features
+1.	Create a method/endpoint to return a collection of all list items: ('/')
+2.	Create a method/endpoint to retrieve item detail by ID: ('/:id')
+3.	Create a method/endpoint to return a collection of all list items filtering on consumer’s state value: ('/state/:id')
+4.	Create a method/endpoint to return a collection of all list items filtering on vehicle’s make value: '/vehicle/:id')
+5.	Create a method/endpoint to return a collection of all list items filtering on former insurer: ('/insurance/:id')
+
+
+Delivery
+The preferred delivery method of this assignment would be to provide a GitHub or BitBucket URL that allows us to download & review your work.
