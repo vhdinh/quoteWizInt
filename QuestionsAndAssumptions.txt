@@ -10,23 +10,5 @@
 
 
 2.	Note any questions you would surface to the ScrumMaster/PM or Business Stakeholders/Product Owners regarding the feature request(s)
-- Should there be an endpoint to search by consumers name - this feature can make searching easier if id isn't known
+- Should there be an endpoint to search by consumers name - this feature can make searching easier if ID isn't known
 - What other information is useful upfront for the consumer
-
-
-
-ROUTES:
-http://localhost:4000/
-- Returns a collection of all list items
-
-http://localhost:4000/:id   (ex: http://localhost:4000/998)
-- Returns the item detail by ID
-
-http://localhost:4000/state/:id  (ex: http://localhost:4000/state/WA)
-- Returns a collection of all list items filtering on consumer's state value
-
-http://localhost:4000/vehicle/:id  (ex: http://localhost:4000/vehicle/ford)
-- Returns a collection of all list items filtering on vehicle's make value
-
-http://localhost:4000/insurance/:id (ex: http://localhost:4000/coverage/None)
-- Returns a collection of all list items filtering on former insurer
